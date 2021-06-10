@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="copy_videogame.xsl"?>
+<!DOCTYPE copies_videogame[
+<!ELEMENT copies_videogame (copy_videogame*)>
+<!ELEMENT copy_videogame (copy_videogame_id,sale_date?,sale_time?,status)>
+<!ELEMENT copy_videogame_id EMPTY>
+<!ATTLIST copy_videogame_id id CDATA #REQUIRED>
+<!ELEMENT sale_date (#PCDATA)>
+<!ELEMENT sale_time (#PCDATA)>
+<!ELEMENT status (#PCDATA)>
+]>
+
+<copies_videogame>
+    <copy_videogame>
+        <copy_videogame_id id="00004532"/> 
+        <sale_date>20.05.2021</sale_date>
+        <sale_time>15:02</sale_time>
+        <status>Продана</status>
+    </copy_videogame>    
+    <copy_videogame> 
+        <copy_videogame_id id="00005364"/>   
+        <sale_date>24.06.2021</sale_date>
+        <sale_time>11:49</sale_time>
+        <status>Продана</status>
+    </copy_videogame>
+     <copy_videogame>
+        <copy_videogame_id id="00007832"/> 
+        <sale_date>23.05.2021</sale_date>
+        <sale_time>14:52</sale_time>
+        <status>Продана</status>
+    </copy_videogame>   
+     <copy_videogame>
+        <copy_videogame_id id="00004322"/> 
+        <sale_date>14.05.2021</sale_date>
+        <sale_time>20:00</sale_time>
+        <status>Продана</status>
+    </copy_videogame>   
+     <copy_videogame>
+        <copy_videogame_id id="00004543"/> 
+        <sale_date>21.05.2021</sale_date>
+        <sale_time>11:32</sale_time>
+        <status>Продана</status>
+    </copy_videogame>   
+</copies_videogame>

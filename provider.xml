@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="provider.xsl"?>
+<!DOCTYPE providers[
+<!ELEMENT providers (provider*)>
+<!ELEMENT provider (provider_id,fullname,product_price,product_packing,work_experience,location,email,graphics_сompliance,сost_level)>
+<!ELEMENT provider_id EMPTY>
+<!ATTLIST provider_id id CDATA #REQUIRED>
+<!ELEMENT fullname (surname, name, patronymic)>
+<!ELEMENT surname (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT patronymic (#PCDATA)>
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT product_price (#PCDATA)>
+<!ELEMENT product_packing (#PCDATA)>
+<!ELEMENT work_experience (#PCDATA)>
+<!ELEMENT graphics_сompliance (#PCDATA)>
+<!ELEMENT сost_level (#PCDATA)>
+]>
+
+<providers>
+    <provider>
+        <provider_id id="000032"/> 
+        <fullname>
+            <surname>Молотов</surname>
+            <name>Артем</name>
+            <patronymic>Иванович</patronymic>
+        </fullname>
+        <product_price>200 рублей</product_price>
+        <product_packing>8 из 10</product_packing>
+        <work_experience>2 года</work_experience>
+        <location>Орловская область, город Зарайск, пер. Славы, 23</location>        
+        <email>molotovai@mail.ru</email>
+        <graphics_сompliance>9 из 10</graphics_сompliance>
+        <сost_level>5 из 10</сost_level>  
+    </provider>    
+    <provider> 
+        <provider_id id="000056"/>    
+        <fullname>
+            <surname>Петров</surname>
+            <name>Александр</name>
+            <patronymic>Васильевич</patronymic>
+        </fullname>
+        <product_price>500 рублей</product_price>
+        <product_packing>9 из 10</product_packing>
+        <work_experience>5 лет</work_experience>
+        <location>Астраханская область, город Талдом, пр. Ладыгина, 38</location>
+        <email>petrovav@mail.ru</email>
+        <graphics_сompliance>8 из 10</graphics_сompliance>
+        <сost_level>7 из 10</сost_level>
+    </provider>
+    <provider>
+        <provider_id id="000042"/> 
+        <fullname>
+            <surname>Кузнецов</surname>
+            <name>Иван</name>
+            <patronymic>Петрович</patronymic>
+        </fullname>
+        <product_price>150 рублей</product_price>
+        <product_packing>9 из 10</product_packing>
+        <work_experience>3 года</work_experience>
+        <location>Ярославская область, город Видное, спуск Сталина, 32</location>        
+        <email>eric01.01@gmail.com</email>
+        <graphics_сompliance>8 из 10</graphics_сompliance>
+        <сost_level>6 из 10</сost_level>  
+    </provider>    
+</providers>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="videogame.xsl"?>
+<!DOCTYPE videogames[
+
+<!ELEMENT videogames (videogame*)>
+<!ELEMENT videogame (videogame_id,genre,publication_date,title,rating,price,technical_specifications,description,number_of_copies,age_rating)>
+<!ELEMENT videogame_id EMPTY>
+<!ATTLIST videogame_id id CDATA #REQUIRED>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT publication_date (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT rating (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT technical_specifications (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT number_of_copies (#PCDATA)>
+<!ELEMENT age_rating (#PCDATA)>
+]>
+<videogames>
+	<videogame>
+		<videogame_id id="12648365"/>
+		<genre>Головоломка</genre>
+		<publication_date>12.05.2010</publication_date>
+		<title>Portal</title>
+		<rating>89</rating>
+		<price>300 рублей</price>
+		<technical_specifications>
+            Windows XP,AMD Athlon XP 1500+,nVidia GeForce 3 Ti 500
+        </technical_specifications>
+		<description>
+            Компьютерная игра в жанре головоломки от первого лица
+        </description>
+		<number_of_copies>28</number_of_copies>
+		<age_rating>12+</age_rating>
+	</videogame>
+	<videogame>
+		<videogame_id id="53482678"/>
+		<genre>Шутер</genre>
+		<publication_date>28.11.2012</publication_date>
+		<title>Far Cry 3</title>
+		<rating>91</rating>
+		<price>1500 рублей</price>
+		<technical_specifications>
+            Windows Vista,Intel Pentium 4 (3.0GHz),nVidia GeForce 6600 GT 
+        </technical_specifications>
+		<description>
+            Мультиплатформенная видеоигра в жанре шутер в открытом мире
+        </description>
+		<number_of_copies>15</number_of_copies>
+		<age_rating>16+</age_rating>
+	</videogame>
+    <videogame>
+		<videogame_id id="43562747"/>
+		<genre>Стратегия</genre>
+		<publication_date>29.03.2015</publication_date>
+		<title>Might and Magic Heroes VII</title>
+		<rating>80</rating>
+		<price>2000 рублей</price>
+		<technical_specifications>
+          Windows 7 SP1,Intel Core i5-660,Nvidia GeForce GTX 460
+        </technical_specifications>
+		<description>
+            Компьютерная игра в жанре пошаговой стратегии с элементами RPG
+        </description>
+		<number_of_copies>30</number_of_copies>
+		<age_rating>12+</age_rating>
+	</videogame>
+</videogames>
