@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="requested_videogame.xsl"?>
+<!DOCTYPE requested_videogames[
+<!ELEMENT requested_videogames (requested_videogame*)>
+<!ELEMENT requested_videogame (requested_videogame_id,request_date,request_time,quantity)>
+<!ELEMENT requested_videogame_id EMPTY>
+<!ATTLIST requested_videogame_id id CDATA #REQUIRED>
+<!ELEMENT request_date (#PCDATA)>
+<!ELEMENT request_time (#PCDATA)>
+<!ELEMENT quantity (#PCDATA)>
+]>
+
+<requested_videogames>
+    <requested_videogame>
+        <requested_videogame_id id="23324532"/> 
+        <request_date>25.06.2021</request_date>
+        <request_time>12:52</request_time>
+        <quantity>25</quantity>
+    </requested_videogame>    
+    <requested_videogame> 
+        <requested_videogame_id id="42367586"/>   
+        <request_date>19.05.2021</request_date>
+        <request_time>19:12</request_time>
+        <quantity>30</quantity>
+    </requested_videogame>
+    <requested_videogame> 
+        <requested_videogame_id id="24683798"/>   
+        <request_date>15.06.2021</request_date>
+        <request_time>09:19</request_time>
+        <quantity>5</quantity>
+    </requested_videogame>
+    <requested_videogame> 
+        <requested_videogame_id id="97656243"/>   
+        <request_date>12.06.2021</request_date>
+        <request_time>10:17</request_time>
+        <quantity>3</quantity>
+    </requested_videogame>
+</requested_videogames>

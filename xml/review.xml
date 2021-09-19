@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="review.xsl"?>
+<!DOCTYPE reviews[
+<!ELEMENT reviews (review*)>
+<!ELEMENT review (review_id,client_fullname,assessment,review_text,review_subject)>
+<!ELEMENT review_id EMPTY>
+<!ATTLIST review_id id CDATA #REQUIRED>
+<!ELEMENT client_fullname (surname, name, patronymic)>
+<!ELEMENT surname (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT patronymic (#PCDATA)>
+<!ELEMENT assessment (#PCDATA)>
+<!ELEMENT review_text (#PCDATA)>
+<!ELEMENT review_subject (#PCDATA)>
+]>
+
+<reviews>
+    <review>
+        <review_id id="0004"/>
+        <client_fullname>
+            <surname>Гвоздев</surname>
+            <name>Антон</name>
+            <patronymic>Павлович</patronymic>
+        </client_fullname>
+        <assessment>4 из 5</assessment>
+        <review_text>
+            Очень классный магазин с разнообразным ассортиментом, жаль что не было в наличии Far Cry 6
+        </review_text>
+        <review_subject>Магазин</review_subject>
+    </review>    
+    <review> 
+        <review_id id="0025"/>   
+        <client_fullname>
+            <surname>Карпенко</surname>
+            <name>Алина</name>
+            <patronymic>Сергеевна</patronymic>
+        </client_fullname>
+        <assessment>5 из 5</assessment>
+        <review_text>Всем довольна, продавцы общительные и разбираются в данной индустрии</review_text>
+        <review_subject>Магазин</review_subject>
+    </review>
+    <review> 
+        <review_id id="0034"/>   
+        <client_fullname>
+            <surname>Сидоров</surname>
+            <name>Андрей</name>
+            <patronymic>Даниилович</patronymic>
+        </client_fullname>
+        <assessment>1 из 5</assessment>
+        <review_text>Игра не запускается на телевизоре</review_text>
+        <review_subject>Видеоигра</review_subject>
+    </review>
+    <review> 
+        <review_id id="0039"/>   
+        <client_fullname>
+            <surname>Золотова</surname>
+            <name>Альбина</name>
+            <patronymic>Владимировна</patronymic>
+        </client_fullname>
+        <assessment>5 из 5</assessment>
+        <review_text>Низкие цены и большой выбор</review_text>
+        <review_subject>Магазин</review_subject>
+    </review>
+     <review> 
+        <review_id id="0056"/>   
+        <client_fullname>
+            <surname>Золотов</surname>
+            <name>Георгий</name>
+            <patronymic>Павлович</patronymic>
+        </client_fullname>
+        <assessment>5 из 5</assessment>
+        <review_text>Моя сестра в восторге от вашего магазина, я с ней солидарен</review_text>
+        <review_subject>Магазин</review_subject>
+    </review>
+</reviews>
